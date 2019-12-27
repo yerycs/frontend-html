@@ -1,0 +1,483 @@
+	@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+	.container {
+		width: 80%;
+		margin:auto;
+	}
+	.icona i {
+		border-radius: 50%;
+	}
+	/* -------------------------------------- */
+	/* HEADER */
+	/* -------------------------------------- */
+	header {
+		background:#D5ECEA;
+	}
+	.container {
+	width:80%;
+	margin: auto;
+}
+
+/* 1.Header */
+.header1 {
+	width:100%;
+	background: #D6F3F4;
+	overflow: hidden;
+	height: 50px;
+	line-height: 50px;
+}
+.header1 .header1menu {
+	float: left;
+}
+.header1 .header1info {
+	float:right;
+}
+.header1 .header1menu nav ul li {
+	list-style: none;
+	float: left;
+}
+.header1 .header1menu nav a {
+	padding: 5px;
+	font-weight: bold;
+	color:#878787;
+	text-decoration: none;
+}
+.header1 #navred {
+	color:red;
+	text-decoration: underline;
+}
+.header1info a {
+	float: left;
+	color:#878787;
+	margin-right: 10px;
+}
+.header1info a i {
+	color:red;
+}
+.header1info .infosupport {
+	float: right;
+}
+.header1info .infosupport nav ul li {
+	float: left;
+	list-style: none;
+	width:30px;
+	height: 30px;
+	line-height: 30px;
+	margin:7px 5px;
+	background: white;
+	border-radius: 50%;
+	text-align: center;
+}
+.header1info .infosupport #red {
+	background: red;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.network-social i {
+		text-align: center;
+
+	}
+	.main-help {
+		width: 100%;
+		overflow: hidden;
+		height: 50px;
+
+	}
+	.container .main-nav {
+		float: left;
+	}
+	.container .social-link {
+		float: right;
+		line-height: 50px;
+	}
+
+	.container .main-nav nav ul li {
+		list-style: none;
+		float: left;
+	}
+	.container .main-nav  nav a {
+		padding: 5px;
+		font-weight: bold;
+		color:#878787; 
+		text-decoration: none;
+	}
+	.container #navred {
+		color: red;
+		text-decoration: underline;
+	}
+	.social-link a {
+		float: left;
+		color: #878787;
+		margin-right: 10px;
+		text-decoration: none;
+	}
+	.social-link a i {
+		color: red;
+	}
+	.social-link .network-social a i {
+		color: #676161;
+	}
+
+
+	.social-link .network-social {
+		float: right;
+
+	}
+	.social-link .network-social nav ul li {
+		float: left;
+		list-style: none;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		margin: 8px 4px;
+		background: white;
+		border-radius: 50%;
+		text-align: center;
+		}
+
+	.social-link .network-social #red {
+			background: red;
+			color: white;
+		}
+
+
+	/* Header-col */
+
+	.container .header  {
+		float: right;
+	}
+	.header {
+		background:white;
+	}
+	.container .adress-you {
+		padding-top: 25px;
+		float: left;
+		margin-right: 40px;
+		padding-right: 45px;
+
+	}
+	.text-row {
+		float: right;
+		font-size: 16px;
+
+	}
+
+
+	.adress-you .text-row1 {
+		margin-right: 10px;
+		
+	}
+	.text-row1 {
+
+		float: right;
+		font-size: 15px;
+		
+	}
+	.text-row1 span {
+		font-weight: bold;
+	}
+
+	.icona {
+		float: left;
+		position: relative;
+		font-size:43px;
+		color: #FA5A5A;
+		padding-right: 12px;
+	}
+
+	/* button */
+	 .btn button{
+
+		width:130px;
+		height: 45%;
+		background: red;
+		padding: 10px;
+		border-radius: 6px;
+		color:white;
+		border:none;
+		
+	}
+	/* -------------------- */
+	/* MEnu upadet */
+	/* -------------------- */
+	.header-nav {
+		padding-top: 2%;
+	}
+	.main-nav li {
+		float: left;
+		padding: 12px;
+		list-style: none;
+	}
+
+
+	 .search-form   {
+
+		float: right;
+		font-size: 28px;
+		
+	}
+	.input-t  {
+		background: #B6C1C0;
+		border-radius: 45px;
+		outline: none;
+		border: none;
+		display: inline;
+		color: red;
+
+
+	}
+	.button {
+		background: #C0B6B6;
+
+		font-size: 17px;
+	}
+
+
+
+	/* background   */
+	h1 {
+		padding-top: 13%;
+		padding-left: 20%;
+		line-height: 2.50em;
+
+
+	}
+	h3 span{
+		
+		color: #E94366;
+	}
+	#direct {
+		padding-left: 20%;
+	}
+
+
+
+
+	main {
+
+	   background-image:  linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../foto/doctors.jpg);
+	   background-size: cover;
+	   background-repeat: no-repeat;
+	   height: 450px;
+	  
+	}
+
+	.content {
+		padding-top: 2%;
+	}
+
+
+
+	/* Schedule */
+
+
+
+	.schedule h4 {
+		margin-left: 44%;
+		padding-top: 95px;
+		float: left;
+		text-transform: uppercase;
+		font-size: 10px;
+		color: #918989;
+		letter-spacing: 0.10em;
+		
+	}
+
+	 #make {
+		font-size: 25px;
+	    padding-top: 115px;
+	    margin-left: 38%;
+	    line-height: 1.2em;
+
+	   
+	}
+
+	#make span {
+		color: #D53838;
+		font-weight: bold;
+	}
+
+	.center img {
+	    margin-left: 27%;
+	    padding-top: 40px;
+	}
+
+
+	/* Form Contakt */
+	.container2
+	{
+		background-image: url(../foto/7.jpg);
+		background-size: cover;
+		height: 600px;
+		display: block;
+	}
+
+	input {
+		padding: 10px;
+	}
+	.container2 .text1{
+		padding-top: 6%;
+
+
+	}
+
+
+	.text1 .tex {
+		color: black;
+		font-size: 10px;
+		padding-bottom: 12px
+		
+	}
+
+	.text1 #tex{
+		
+		padding-left: 8.2%;
+		color: white;
+	}
+	.form-contact  {
+		color: #908989;
+		margin-left: 8%;
+		padding-top: 2%;
+
+
+	}
+
+	#contact-me {
+		padding: 18px;
+		width: 16%;
+		height: 10%;
+		margin-right: 20px;
+		margin-bottom: 9px;		
+	}
+	/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	  /*kdsanjdjsadnkasdjnakjdaskdmajdksdjk,dlad  */
+	  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	#texta {
+		width: 39.4%;
+		padding-bottom:  90px;
+	}
+	.send-r {
+		padding: 28px;
+		width: 19%;
+		background-color: #ED2B6F;
+		color: white;
+		font-weight: bold;
+		border: none;
+		outline: none;
+		border-radius: 5px;
+	}
+
+	/* LOGOS */
+
+
+	.foto img {
+
+		width: 100%;
+		height: 10%;
+		background-color: #D6D6D6;
+	}
+
+	/* ------------------------------------- */
+	/* Footter */
+	/* ------------------------------------- */
+
+footer {
+	background: #130E39;
+	width: 100%;
+	padding: 30px 0px;
+}
+footer .row {
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+	justify-content: space-around;
+}
+.footercol {
+	width:33%;
+	padding: 0;
+	color:white;
+}
+.footercol .iconcol {
+	width:40px;
+	height: 40px;
+	float: left;
+}
+.footercol #hrspan {
+	border-bottom: 1px solid grey;
+	width: 70%;
+	display: block;
+	margin-bottom: 10px;
+}
+.footercol:first-child span {
+	font-size: 14px;
+	color:grey;
+}
+.footercol .iconcol {
+	position: relative;
+	top: 10px;
+}
+.footercol .btn_red {
+	padding: 10px 15px;
+	background: #CF4F4F;
+	color:white;
+	border:1px solid #CF4F4F;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.footercol .btn_white {
+	padding: 10px 15px;
+	background: white;
+	color:black;
+	border:1px solid white;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.footercol p {
+	padding-bottom:7px;
+}
+
+
+.linkat nav ul li {
+color: white;
+list-style: none;
+border: 1px solid red;
+margin-right:  10%;
+margin-bottom: 1%;
+width:20px ; 
+}
+/* Footteer */

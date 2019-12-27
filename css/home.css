@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+	.container {
+		width: 80%;
+		margin:auto;
+	}
+	.icona i {
+		border-radius: 50%;
+	}
+	/* --------------------------------------
+	/* HEADER */
+	/* -------------------------------------- */
+	header {
+		/*background:#D5ECEA;*/
+	}
+
+	.header {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.container {
+		margin:auto;
+		width: 80%;
+	}
+.header-navigation {
+	width:100%;
+	background: #f4f9fc;
+	overflow: hidden;
+	height: 50px;
+	line-height: 50px;
+}
+.header-navigation {
+	float: left;
+}
+.header-menu {
+	display: inline-block;
+}
+.header-navigation .headerinfo {
+	float:right;
+}
+.header-navigation .header-menu nav ul li {
+	list-style: none;
+	float: left;
+}
+.header-navigation .header-menu nav a {
+	padding: 5px;
+	font-weight: bold;
+	color:#878787;
+	text-decoration: none;
+}
+.header-navigation #navred {
+	color:red;
+	text-decoration: underline;
+}
+.headerinfo a {
+	float: left;
+	color:#878787;
+	margin-right: 10px;
+}
+.headerinfo a i {
+	color:red;
+}
+.headerinfo .infosupport {
+	float: right;
+	color: #8e8e8e
+}
+.headerinfo .infosupport nav ul li {
+	float: left;
+	list-style: none;
+	width:30px;
+	height: 30px;
+	line-height: 30px;
+	margin:7px 5px;
+	background: white;
+	border-radius: 50%;
+	text-align: center;
+}
+.headerinfo .infosupport #red {
+	background: red;
+	color:white;
+}
+
+	/* Header-col */
+
+	.container .header  {
+		float: right;
+		margin-top: 5px;
+	}
+
+	.header-address {
+		display: inline-block;
+		width: 100%;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #777777;
+	}
+
+	.header {
+		background:white;
+	}
+
+	.container .adress-you {
+		padding-top: 25px;
+		display: inline-block;
+		float: left;
+	}
+
+	.colbar {
+		display: inline-block;
+		position: relative;
+	}
+
+	.adress-you{
+		margin-right:10px;
+	}
+
+	#btn-apointment {
+		display: block;
+	}
+
+	.text-row {
+		float: right;
+	}
+
+	.deadline {
+		font-size: 18px;
+		display: inline-block;
+		float: right;
+	}
+
+	.adress-you .text-row1 {
+		margin-right: 55px;
+	}
+	.text-row #ppp
+	{
+		color: #787777;
+	}
+	
+	.text-row1 #ppp
+	{
+		color: #787777;
+	}
+	.text-row1 {
+		float: right;
+		padding-left: 22px;
+		line-height: 1.5em;
+		
+	}
+	.text-row1 span {
+		font-weight: bold;
+	}
+
+	.icona {
+		float: left;
+		position: relative;
+		font-size:43px;
+		color: #FA5A5A;
+		padding-right: 12px;
+	}
+	 .icona1 {
+		float: left;
+		position: relative;
+		font-size: 20px;
+		border-radius: 50%;
+		background-color: #ffdadaab;
+		padding-right: 12px;
+		color: #EF1919;
+		padding:15px;
+		height: 20px;
+		display: flex;
+
+	}
+
+	/* button */
+	 .btn a{
+	 	display: inline-block;	
+		background: #e22454;
+		padding: 18px 42.5px;
+		border-radius: 6px;
+		color:white;
+		border:none;
+		font-weight: bold;
+		position: relative;
+		
+	}
+	a.btm:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 8px;
+    right: 10px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255, 0.3);
+}
+
+	/* -------------------- */
+	/* MEnu upadet */
+	/* -------------------- */
+	.header-nav {
+		padding-top: 2%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.main-nav li {
+		float: left;
+		padding: 12px;
+		list-style: none;
+
+	}
+.header-menu .main-nav .content-start li a {
+	text-decoration: none;
+	color: #363131;
+	font-weight: bold;
+
+}
+
+ header .search-form {
+	 display: inline-block;
+	 position: relative;
+}
+header .input-t{
+    border: none;
+    border-radius: 25px;
+    background: #ecf3fb;
+    padding: 12px 20px;
+    float: right;
+    color: #798a9e;
+    font-size: 13px;
+    line-height: 18px;
+    height: auto;
+}
+header .search-form .button {
+    position: absolute;
+    border: none;
+    color: #000;
+    font-size: 12px;
+    top: 14px;
+    right: 14px;
+    background-color: transparent;
+}
+ 
+ /* 	 .search-form   {
+ 
+ 		float: right;
+ 		font-size: 28px;
+ 		
+ 	}
+ 	.input-t  {
+ 		background: #B6C1C0;
+ 		border-radius: 45px;
+ 		outline: none;
+ 		border: none;
+ 		display: inline;
+ 		color: red;
+ 
+ 
+ 	}
+ 	.button {
+ 		background: #C0B6B6;
+ 
+ 		font-size: 17px;
+ 	}  */
+
+
+
+  
+	h1 {
+		padding-top: 13%;
+		padding-left: 20%;
+		line-height: 2.50em;
+
+
+	}
+	h3 span{
+		
+		color: #E94366;
+	}
+	#direct {
+	
+		margin-left: 20%
+	}
+
+
+
+
+	main {
+
+	   background-image:  linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../foto/doctors.jpg);
+	   background-size: cover;
+	   background-repeat: no-repeat;
+	   height: 450px;
+	  
+	}
+
+	.content {
+		padding-top: 2%;
+	}
+
+
+
+	/* Schedule */
+
+
+	.schedule {
+		width:700px;
+		margin:20px auto;
+		text-align: center;
+		margin-top: 85px;
+	}
+	.textschedule {
+		width:500px;
+		margin:auto;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+	.schedule h2 {
+		font-size: 40px;
+	}
+	#make {
+		font-size: 25px;
+		font-weight: bold;
+		text-transform: none;
+		margin-bottom: 55px;
+	}
+	#make span {
+		color: #D53838;
+		font-weight: bold;
+	}
+	.schedule .fotoschedule img {
+		width:100%;
+		margin-bottom: 55px;
+	}
+	
+
+
+	/* Form Contakt */
+	.container2
+	{
+		background-image:linear-gradient(to left, rgba(0.5,0,0,0), rgba(0.5,0,0,0.6)),url(../foto/docfemals.jpg);
+		background-size: cover;
+		height: 720px;
+		display: block;
+	}
+
+	input {
+		padding: 10px;
+	}
+	.container2 .text1{
+		padding-top: 6%;
+
+
+	}
+
+
+	.text1 .tex {
+		color: black;
+		font-size: 10px;
+		padding-bottom: 12px
+	}
+	.text1:first-child #tex:first-child {
+		text-transform: uppercase;
+		font-size: 12px;
+		letter-spacing: 0.5em;
+	}
+	.text1 .tex {
+		font-size: 22px;
+		line-height: 1.6em;
+		margin-top: 18px;
+		font-weight: bold;
+	}
+	.text1 #tex{
+		
+		padding-left: 8.2%;
+		color: white;
+	}
+	.form-contact  {
+		color: #908989;
+		margin-left: 8%;
+		padding-top: 2%;
+		outline: none;
+
+
+	}
+
+	#contact-me {
+		padding: 18px;
+		width: 16%;
+		height: 10%;
+		margin-right: 20px;
+		margin-bottom: 9px;	
+		color: #7E7B7B;
+
+	}
+	/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	  /*kdsanjdjsadnkasdjnakjdaskdmajdksdjk,dlad  */
+	  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+	#texta {
+		width: 39.4%;
+		padding-bottom:  90px;
+	}
+	.send-r {
+		padding: 28px;
+		width: 19%;
+		background-color: #ED2B6F;
+		color: white;
+		font-weight: bold;
+		border: none;
+		outline: none;
+		border-radius: 5px;
+	}
+
+	/* LOGOS */
+
+
+	.foto img {
+
+		width: 100%;
+		height: 10%;
+		background-color: #D6D6D6;
+	}
+
+	/* ------------------------------------- */
+	/* Footter */
+	/* ------------------------------------- */
+
+
+
+
+
+footer {
+	background: #143770;
+	width: 100%;
+	padding: 30px 0px;
+}
+footer .row {
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+	justify-content: space-around;
+}
+.footercol {
+	width:33%;
+	padding: 10px 2px;
+	color:white;
+}
+.footercol .iconcol {
+	width:40px;
+	height: 40px;
+	float: left;
+}
+.footercol #hrspan {
+	border-bottom: 1px solid grey;
+	width: 70%;
+	display: block;
+	margin-bottom: 10px;
+}
+.footercol:first-child span {
+	font-size: 14px;
+	color:grey;
+}
+.footercol .iconcol {
+	position: relative;
+	top: 10px;
+}
+.footercol .btn_red {
+	padding: 10px 15px;
+	background: #CF4F4F;
+	color:white;
+	border:1px solid #CF4F4F;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.footercol .btn_white {
+	padding: 10px 15px;
+	background: white;
+	color:black;
+	border:1px solid white;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.footercol p {
+	padding-bottom:7px;
+}
+
+/* Prova */
+.row-footer {
+	width:50%;
+	display: flex;
+
+}
+
+.container-footer {
+	margin-top: 25%;
+}
+.links-footer {
+	list-style: none;
+}
+.column {
+  width: 25%;
+  padding: 7px;
+  height: 255px;
+  color: white;
+
+}
+.column li:before {
+	 content: ' \003E';
+}
+.column li {
+	margin-bottom: 6px;
+	color:lightgrey;
+}
+.column:first-child li:first-child {
+	color:white;
+}
+.texx {
+	margin-top: 15px;
+
+}
+.hrspan1 {
+	width: 20%;
+
+}
+.container-footer {
+	margin-top: 15px;
+}
