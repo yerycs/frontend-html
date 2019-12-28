@@ -142,7 +142,7 @@
 		color: #787777;
 	}
 	
-	.text-row1 #ppp
+	.text-row1 .ppp
 	{
 		color: #787777;
 	}
@@ -378,7 +378,7 @@ header .search-form .button {
 		font-size: 10px;
 		padding-bottom: 12px
 	}
-	.text1:first-child #tex:first-child {
+	.text1:first-child .tex:first-child {
 		text-transform: uppercase;
 		font-size: 12px;
 		letter-spacing: 0.5em;
@@ -389,7 +389,7 @@ header .search-form .button {
 		margin-top: 18px;
 		font-weight: bold;
 	}
-	.text1 #tex{
+	.text1 .tex{
 		
 		padding-left: 8.2%;
 		color: white;
@@ -403,7 +403,7 @@ header .search-form .button {
 
 	}
 
-	#contact-me {
+	.contact-me {
 		padding: 18px;
 		width: 16%;
 		height: 10%;
@@ -506,7 +506,7 @@ footer .row {
 	display: flex;
 }
 
-.footercol #hrspan {
+.footercol .hrspan {
 	border-bottom: 3px solid grey;
 	width: 70%;
 	display: block;
