@@ -583,7 +583,6 @@ footer .row {
 .column {
   width: 100%;
   padding: 7px;
-  height: 255px;
   color: white;
 }
 
@@ -641,4 +640,55 @@ footer .row {
 }
 .container-footer {
 	margin-top: 15px;
+}
+
+.footer-bottom {
+	display: flex;
+}
+
+.footer-bottom-icon {
+	font-size: 30px;
+	color:  indianred;
+}
+
+.footer-bottom-text {
+	margin-left: 10px;
+	color: white;
+}
+
+#footer-contact {
+	color: white;
+}
+
+.footer-email {
+	display: flex;
+}
+
+.footer-email input {
+	padding: 20px;
+	background-color: #777777;
+	color: grey;
+	border: none;
+	border-radius: 3px;
+}
+
+.email-icon {
+	padding: 20px;
+	background: deeppink;
+	border-radius: 3px;
+}
+
+.social {
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 50%;
+	margin-left: 5px;
+	background: transparent;
+	color: grey;
+}
+
+.social:hover {
+	background: deeppink;
+	color: white;
+	border: 1px solid deeppink;
 }
