@@ -449,7 +449,7 @@ header .search-form .button {
 
 
 footer {
-	background: #143770;
+	background: #233645;
 	width: 100%;
 	padding: 30px 0px;
 }
@@ -469,7 +469,7 @@ footer .row {
 
 .iconcol > i {
 	font-size: 48px;
-	color: indianred;
+	color: #b2495a;
 }
 
 .textcol > p {
@@ -487,6 +487,11 @@ footer .row {
 
 .footer-icon-text > span {
 	font-size: 16px;
+	line-height: 1.5;
+}
+
+.footer-text-color {
+	color: #7e929d;
 }
 
 .iconcol {
@@ -499,7 +504,7 @@ footer .row {
 .red-line {
 	width: 50px;
 	height: 3px;
-	background: red;
+	background: #a12c51;
 }
 
 .bottom-line {
@@ -507,24 +512,21 @@ footer .row {
 }
 
 .footercol .hrspan {
-	border-bottom: 3px solid grey;
-	width: 70%;
+	border-bottom: 3px solid #263949;
+	width: 50%;
 	display: block;
 	margin-bottom: 10px;
 }
 
-.footercol:first-child span {
-	color:grey;
-}
 .footercol .iconcol {
 	position: relative;
 	top: 10px;
 }
 .footercol .btn_red {
-	padding: 10px 15px;
-	background: #CF4F4F;
+	padding: 15px 25px;
+	background: #e23863;
 	color:white;
-	border:1px solid #CF4F4F;
+	border:1px solid #e23863;
 	border-radius: 4px;
 	font-weight: bold;
 	position: relative;
@@ -546,7 +548,7 @@ footer .row {
 }
 
 .footercol .btn_white {
-	padding: 10px 15px;
+	padding: 15px 25px;
 	background: white;
 	color:black;
 	border:1px solid white;
@@ -556,11 +558,12 @@ footer .row {
 }
 
 .footer-line {
-	height: 1px;
+	height: 3px;
 	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background: grey;
+	background: #263949;
+	position: relative;
 }
 
 .footercol p {
@@ -593,8 +596,8 @@ footer .row {
 	 content: ' \003E';
 }
 .column li {
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 	color:lightgrey;
 }
 
@@ -607,24 +610,35 @@ footer .row {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	margin-left: 10px;
+	margin-left: 15px;
+	color: #7e929d;
+}
+
+.recent-topic {
+	font-size: 18px;
+}
+
+.recent-topic:hover {
+	color: white;
 }
 
 .recent-img {
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	border: 1px solid white;
+	border: 5px solid transparent;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0 0 0 2pt white;
 }
 
-.photo-item {
+.recent-img img {
 	width: 100%;
+	height: 100%;
 }
 
-.photo-img {
-	width: 70px;
-	height: 70px;
-	margin: 5px;
+.recent-date {
+	font-size: 14px;
 }
 
 .column:first-child li:first-child {
@@ -647,13 +661,14 @@ footer .row {
 }
 
 .footer-bottom-icon {
-	font-size: 30px;
-	color:  indianred;
+	font-size: 35px;
+	color:  #b2495a;
 }
 
 .footer-bottom-text {
 	margin-left: 10px;
 	color: white;
+	line-height: 1.5;
 }
 
 #footer-contact {
@@ -666,20 +681,27 @@ footer .row {
 
 .footer-email input {
 	padding: 20px;
-	background-color: #777777;
+	background-color: #263949;
 	color: grey;
 	border: none;
 	border-radius: 3px;
+	font-weight: bold;
 }
 
 .email-icon {
 	padding: 20px;
-	background: deeppink;
+	background: #a12c51;
 	border-radius: 3px;
+	border: none
+}
+
+.email-icon i {
+	font-size: 20px;
+	color: white;
 }
 
 .social {
-	padding: 10px;
+	padding: 15px;
 	border: 1px solid grey;
 	border-radius: 50%;
 	margin-left: 5px;
@@ -687,8 +709,93 @@ footer .row {
 	color: grey;
 }
 
+#facebook {
+	padding: 15px 17px;
+}
+
 .social:hover {
-	background: deeppink;
+	background: #a12c51;
 	color: white;
-	border: 1px solid deeppink;
+	border: 1px solid #a12c51;
+}
+
+.footer-left-column {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer-center-column {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-right-column {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.photo-item {
+	position: relative;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 5px 10px 5px 0;
+}
+
+.photo-img {
+	width: 100%;
+	height: 100%;
+}
+
+.photo-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.photo-hover-item {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.photo-hover-item i{
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+.photo-item:hover .photo-img {
+	background-color: #a12c51;
+	transition: 0.5s ease;
+	opacity: 0.8;
+}
+
+.photo-item:hover img{
+	transition: 0.5s ease;
+	opacity: 0.2;
+}
+
+.photo-item:hover .photo-hover-item {
+	transition: 0.5s ease;
+	display: block;
+	position: absolute;
+}
+
+.footer-gallery-text {
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+}
+
+.footer-arrow {
+	position: absolute;
+	top: -25px;
+	padding: 15px 18px;
+	left: 50%;
+	background: #a12c51;
+	border-radius: 50%;
+	color: white;
 }
